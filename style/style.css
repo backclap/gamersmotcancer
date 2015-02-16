@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "bebas";
+    src: url(../assets/fonts/bebas.otf);
+}
+
+@font-face {
+    font-family: "bebasLight";
+    src: url(../assets/fonts/bebas_light.otf);
+}
+
+@font-face {
+    font-family: "bebasThin";
+    src: url(../assets/fonts/bebas_thin.otf);
+}
+
+body {
+  font-family: "bebas";
+  color: #2c2c2c;
+}
+
+.wrapper {
+  width: 968px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.wrapper h1 {
+  text-align: center;
+  font-size: 5em;
+  font-weight: 300;
+  font-family: "bebasThin";
+}
+
+.wrapper p {
+  line-height: 1.6em;
+  letter-spacing: 0.0625em;
+  font-family: "bebasLight";
+  font-size: 1.55em;
+  text-align: justify;
+  text-justify: inter-word;
+}
