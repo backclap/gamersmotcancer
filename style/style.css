@@ -71,6 +71,19 @@ h2 {
   text-justify: inter-word;
 }
 
+.donate {
+  padding: 20px 15px 10px 15px;
+  border-radius: 3px;
+  background: #007af3;
+  text-decoration: none;
+  color: white;
+  margin: 0 auto;
+  display: block;
+  width: 205px;
+  text-align: center;
+  font-size: 3em;
+}
+
 .support {
   padding: 30px;
   font-size: 4em;
