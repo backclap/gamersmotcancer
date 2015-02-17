@@ -24,18 +24,65 @@ body {
   padding: 15px;
 }
 
-.wrapper h1 {
+.logo {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  width: 100%;
+  float: left;
+}
+
+.row .col {
+  float: left;
+}
+
+.row .col-half {
+  width: 50%;
+}
+
+.row .col-full {
+  width: 100%;
+}
+
+h1, h2, h3, h4, .support {
   text-align: center;
-  font-size: 5em;
-  font-weight: 300;
-  font-family: "bebasThin";
+}
+
+h1 {
+  margin: 65px 0 0;
+  font-size: 4em;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.information {
+  padding: 55px;
 }
 
 .wrapper p {
   line-height: 1.6em;
   letter-spacing: 0.0625em;
-  font-family: "bebasLight";
-  font-size: 1.55em;
   text-align: justify;
   text-justify: inter-word;
+}
+
+.support {
+  padding: 30px;
+  font-size: 4em;
+  font-weight: 900;
+}
+
+.supporter {
+  width: 200px;
+  padding: 20px;
+}
+
+
+.by a {
+  text-decoration: none;
+  color: #007af3;
 }
